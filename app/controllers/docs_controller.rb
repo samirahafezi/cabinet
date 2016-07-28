@@ -7,7 +7,7 @@ class DocsController < ApplicationController
 	end
 
 	def show
-	end
+	end  
 
 	def new
 		@doc = current_user.docs.build
